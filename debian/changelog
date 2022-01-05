@@ -1,3 +1,18 @@
+qtbase-opensource-src (5.12.8+dfsg-0ubuntu2.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: Out-of-bounds Write
+    - No-change rebuild for the focal-security pocket.
+    - CVE-2021-38593
+
+ -- Paulo Flabiano Smorigo <pfsmorigo@canonical.com>  Wed, 05 Jan 2022 18:54:17 +0000
+
+qtbase-opensource-src (5.12.8+dfsg-0ubuntu2) focal; urgency=medium
+
+  * Backport four upstream commits to fix massive memory consumption when
+    rendering specially crafted SVG files (CVE-2021-38593, LP: #1950193).
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Sun, 12 Dec 2021 14:25:21 +0300
+
 qtbase-opensource-src (5.12.8+dfsg-0ubuntu1) focal; urgency=medium
 
   * New upstream bugfix release.
