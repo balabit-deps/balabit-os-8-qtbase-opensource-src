@@ -1,3 +1,9 @@
+qtbase-opensource-src (5.12.8+dfsg-0ubuntu2.1bb1) focal; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Tue, 11 Jan 2022 23:38:01 +0100
+
 qtbase-opensource-src (5.12.8+dfsg-0ubuntu2.1) focal-security; urgency=medium
 
   * SECURITY UPDATE: Out-of-bounds Write
